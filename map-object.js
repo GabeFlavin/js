@@ -1,3 +1,6 @@
+console.log('map loding');
+
+
 if ($('#map')[0]) {
 
   const mapMain = document.getElementById('map');
@@ -63,4 +66,8 @@ const xmlString =' <span id="usjstip"></span><div id="mapwrapper"><div id="mapba
   mapMain.innerHTML = parsedString;
 
 
+} else {
+
+
+  console.log('no map');
 }
